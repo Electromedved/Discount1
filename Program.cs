@@ -16,7 +16,8 @@ namespace Discount1
         {
             float cost;
 
-            Console.WriteLine("Вычисление стоимости покупки с учетом скидки");
+            Console.WriteLine("Вычисление стоимости покупки с учетом скидки.");
+            Console.WriteLine("Скидка в 10 % предоставляется, если сумма покупки больше 1000 грн.");
             Console.WriteLine("Введите сумму покупки и нажмите <Enter>");
             cost = float.Parse(Console.ReadLine().Replace(",", "."));
 
@@ -24,6 +25,8 @@ namespace Discount1
             {
 
             }
+
+            Console.ReadLine();
         }
     }
 }
